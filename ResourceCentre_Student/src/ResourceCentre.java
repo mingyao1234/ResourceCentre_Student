@@ -136,7 +136,7 @@ public class ResourceCentre {
 
 		for (int i = 0; i < camcorderList.size(); i++) {
 
-			output += String.format("%-84s \n", camcorderList.get(i).toString());
+			output += String.format("%-84s \n", camcorderList.get(i).toString()); //duplicate code fixed
 		}
 		return output;
 	}
